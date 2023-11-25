@@ -1,0 +1,48 @@
+{
+  "moneycontrol": {
+    "big_investors": {
+      "goldman": "https://www.moneycontrol.com/india-investors-portfolio/goldman-sachs-india-limited",
+      "mukul": "https://www.moneycontrol.com/india-investors-portfolio/mukul-agrawal",
+      "jhunjhunwala": "https://www.moneycontrol.com/india-investors-portfolio/rakesh-jhunjhunwala-and-associates",
+      "rk_damani": "https://www.moneycontrol.com/india-investors-portfolio/radhakishan-damani",
+      "sanjiv": "https://www.moneycontrol.com/india-investors-portfolio/sanjiv-dhireshbhai-shah",
+      "massachusetts": "https://www.moneycontrol.com/india-investors-portfolio/massachusetts-institute-of-technology",
+      "sequoia": "https://www.moneycontrol.com/india-investors-portfolio/sequoia",
+      "ashish-kacholia": "https://www.moneycontrol.com/india-investors-portfolio/ashish-kacholia",
+      "kedia": "https://www.moneycontrol.com/india-investors-portfolio/vijay-kishanlal-kedia",
+      "mukulprasad": "https://www.moneycontrol.com/india-investors-portfolio/mukul-mahavir-prasad-agrawal",
+      "rameshdamani": "https://www.moneycontrol.com/india-investors-portfolio/ramesh-damani",
+      "dilipkumar-lakhi": "https://www.moneycontrol.com/india-investors-portfolio/dilipkumar-lakhi",
+      "dolly-khanna": "https://www.moneycontrol.com/india-investors-portfolio/dolly-khanna",
+      "ashish-dhawan": "https://www.moneycontrol.com/india-investors-portfolio/ashish-dhawan",
+      "madhusudan-kela": "https://www.moneycontrol.com/india-investors-portfolio/madhusudan-kela",
+      "ashok-kumar-jain": "https://www.moneycontrol.com/india-investors-portfolio/ashok-kumar-jain",
+      "ajay-upadhyaya": "https://www.moneycontrol.com/india-investors-portfolio/ajay-upadhyaya",
+      "mirae-asset-fund": "https://www.moneycontrol.com/india-investors-portfolio/mirae-asset-emerging-bluechip-fund",
+      "reliance-group": "https://www.moneycontrol.com/india-investors-portfolio/reliance-group",
+      "vanguard-fund": "https://www.moneycontrol.com/india-investors-portfolio/vanguard-fund"
+    }
+  },
+  "finology": {
+    "big_investors": {
+      "sunil-singhania": "https://ticker.finology.in/investor/abakkus-fund-sunil-singhania",
+      "ashish-dhawan": "https://ticker.finology.in/investor/ashish-dhawan",
+      "anil-goel": "https://ticker.finology.in/investor/anil-kumar-goel",
+      "ashish-kacholia": "https://ticker.finology.in/investor/ashish-kacholia",
+      "dilipkumar-lakhi": "https://ticker.finology.in/investor/dilipkumar-lakhi",
+      "dolly-khanna": "https://ticker.finology.in/investor/dolly-khanna",
+      "mukul-agrawal": "https://ticker.finology.in/investor/mukul-agrawal",
+      "radhakishan-damani": "https://ticker.finology.in/investor/radhakishan-damani",
+      "rakesh-jhunjhunwala": "https://ticker.finology.in/investor/rakesh-jhunjhunwala",
+      "vijay-kedia": "https://ticker.finology.in/investor/vijay-kedia",
+      "nemish-shah": "https://ticker.finology.in/investor/nemish-s-shah",
+      "madhusudan-kela": "https://ticker.finology.in/investor/madhusudan-kela",
+      "ashok-kumar-jain": "https://ticker.finology.in/investor/ashok-kumar-jain",
+      "ajay-upadhyaya": "https://ticker.finology.in/investor/ajay-upadhyaya"
+    }
+  },
+  "google_sheet": {
+    "big_investors": "https://docs.google.com/spreadsheets/d/1oOV7lgDHqMol0PQfhRZyjNupNezMR-tgROecv0_WbNs/edit?usp=sharing"
+  }
+}
+
