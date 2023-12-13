@@ -38,8 +38,8 @@ for k, v in investors_bulk_deals.items():
 
 df = pd.merge(holdings, deals_df, on=['investor', 'Stock Name'], how='right')
 df['profit_loss'] = df['Avg Price'] - df['holding_average_price']
-desired_order = ['Stock Name', 'investor', 'Action', 'bulk_deal_date', 'bulk_deal_value', 'Quantity', 'Avg Price',
-                 'Quantity Held', 'holding_average_price', 'profit_loss', 'Holder Name', 'holdings_change']
+desired_order = ['Stock Name', 'investor', 'Action', 'bulk_deal_date', 'bulk_deal_value', 'Deal type', 'Quantity',
+                 'Avg Price', 'Quantity Held', 'holding_average_price', 'profit_loss', 'Holder Name', 'holdings_change']
 df = df[desired_order]
 df = df.sort_values(by=['bulk_deal_date', 'Stock Name'], ascending=[False, True])
 df.set_index(['Stock Name'], inplace=True)

@@ -43,7 +43,7 @@ try:
             axis=1)
 
         temp['holdings_as_of'] = datetime.strptime("2023-09-30", "%Y-%m-%d")
-        temp['Stock Name'] = temp['Stock Name'].strip()
+        temp['Stock Name'] = temp['Stock Name'].str.strip()
         temp['holding_average_price'] = temp['holdings_value'] * 100 * 100 * 1000 / temp['holdings_quantity']
         temp = temp.sort_values(by=['Stock Name', 'investor', 'holdings_change', 'holdings_value'],
                                 ascending=[True, True, False, False])

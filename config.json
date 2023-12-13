@@ -1,4 +1,7 @@
 {
+  "google_sheet": {
+    "big_investors": "https://docs.google.com/spreadsheets/d/1oOV7lgDHqMol0PQfhRZyjNupNezMR-tgROecv0_WbNs/edit?usp=sharing"
+  },
   "moneycontrol": {
     "big_investors": {
       "goldman": "https://www.moneycontrol.com/india-investors-portfolio/goldman-sachs-india-limited",
@@ -20,7 +23,9 @@
       "ajay-upadhyaya": "https://www.moneycontrol.com/india-investors-portfolio/ajay-upadhyaya",
       "mirae-asset-fund": "https://www.moneycontrol.com/india-investors-portfolio/mirae-asset-emerging-bluechip-fund",
       "reliance-group": "https://www.moneycontrol.com/india-investors-portfolio/reliance-group",
-      "vanguard-fund": "https://www.moneycontrol.com/india-investors-portfolio/vanguard-fund"
+      "vanguard-fund": "https://www.moneycontrol.com/india-investors-portfolio/vanguard-fund",
+      "mirae-emerging-bluechip-fund": "https://www.moneycontrol.com/india-investors-portfolio/mirae-asset-emerging-bluechip-fund",
+      "kotak-mahindra-group": "https://www.moneycontrol.com/india-investors-portfolio/kotak-mahindra-group"
     }
   },
   "finology": {
@@ -41,8 +46,11 @@
       "ajay-upadhyaya": "https://ticker.finology.in/investor/ajay-upadhyaya"
     }
   },
-  "google_sheet": {
-    "big_investors": "https://docs.google.com/spreadsheets/d/1oOV7lgDHqMol0PQfhRZyjNupNezMR-tgROecv0_WbNs/edit?usp=sharing"
+  "stockedge": {
+    "big_investors": {
+      "navcap-vineet-arora": "https://web.stockedge.com/investor/752992?section=bulk-deal",
+      "uti-mf": "https://web.stockedge.com/investor/53410?section=bulk-deal",
+      "blackrock-india-fund": "https://web.stockedge.com/investor/747653?section=bulk-deal"
+    }
   }
 }
-
