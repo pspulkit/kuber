@@ -50,7 +50,10 @@
     "big_investors": {
       "navcap-vineet-arora": "https://web.stockedge.com/investor/752992?section=bulk-deal",
       "uti-mf": "https://web.stockedge.com/investor/53410?section=bulk-deal",
-      "blackrock-india-fund": "https://web.stockedge.com/investor/747653?section=bulk-deal"
+      "blackrock-india-fund": "https://web.stockedge.com/investor/747653?section=bulk-deal",
+      "gqg-partners-emerging-mkt": "https://web.stockedge.com/investor/752630?section=bulk-deal",
+      "goldman": "https://web.stockedge.com/investor/762841?section=bulk-deal",
+      "nomura-india": "https://web.stockedge.com/investor/85715?section=bulk-deal"
     }
   }
 }
