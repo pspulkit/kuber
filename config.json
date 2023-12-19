@@ -25,7 +25,9 @@
       "reliance-group": "https://www.moneycontrol.com/india-investors-portfolio/reliance-group",
       "vanguard-fund": "https://www.moneycontrol.com/india-investors-portfolio/vanguard-fund",
       "mirae-emerging-bluechip-fund": "https://www.moneycontrol.com/india-investors-portfolio/mirae-asset-emerging-bluechip-fund",
-      "kotak-mahindra-group": "https://www.moneycontrol.com/india-investors-portfolio/kotak-mahindra-group"
+      "kotak-mahindra-group": "https://www.moneycontrol.com/india-investors-portfolio/kotak-mahindra-group",
+      "govt-singapore": "https://www.moneycontrol.com/india-investors-portfolio/government-of-singapore",
+      "franklin-t-mf": "https://www.moneycontrol.com/india-investors-portfolio/franklin-india-group"
     }
   },
   "finology": {
@@ -48,12 +50,17 @@
   },
   "stockedge": {
     "big_investors": {
-      "navcap-vineet-arora": "https://web.stockedge.com/investor/752992?section=bulk-deal",
-      "uti-mf": "https://web.stockedge.com/investor/53410?section=bulk-deal",
-      "blackrock-india-fund": "https://web.stockedge.com/investor/747653?section=bulk-deal",
-      "gqg-partners-emerging-mkt": "https://web.stockedge.com/investor/752630?section=bulk-deal",
-      "goldman": "https://web.stockedge.com/investor/762841?section=bulk-deal",
-      "nomura-india": "https://web.stockedge.com/investor/85715?section=bulk-deal"
+      "uti-mf": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/53410?page=1&pageSize=100",
+      "blackrock-india-fund": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/747653?page=1&pageSize=100",
+      "gqg-partners-emerging-mkt": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/752630?page=1&pageSize=100",
+      "goldman-gqg-2": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/762841?page=1&pageSize=100",
+      "goldman-india": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/103536?page=1&pageSize=100",
+      "goldman-india-eq": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/738000?page=1&pageSize=100",
+      "nomura-india": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/85715?page=1&pageSize=100",
+      "franklin-t-mf": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/53074?page=1&pageSize=100",
+      "norges-bank": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/53484?page=1&pageSize=100",
+      "tata-aig": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/51495?page=1&pageSize=100",
+      "govt-singapore": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/52805?page=1&pageSize=100"
     }
   }
 }
