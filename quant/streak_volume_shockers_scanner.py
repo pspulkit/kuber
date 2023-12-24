@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 import os
+import gspread
 
 print("started")
 
@@ -19,8 +20,19 @@ bearish_trend = pd.DataFrame(data_bearish['screener_result'])
 bearish_trend['indicator'] = 'volume-gainers-with-bearish-trend'
 
 merged_df = pd.concat([bullish_trend, bearish_trend])
-# merged_df.sort_values(by=['indicator','seg_sym'], ascending=[False, True])
-merged_df.set_index(['seg_sym'], inplace=True)
+desired_order = ['seg_sym', 'sector', 'volume', 'indicator', 'at', 'token']
+merged_df = merged_df[desired_order]
+merged_df = merged_df.sort_values(by=['indicator', 'volume'], ascending=[False, False])
+
+gsheets = gspread.service_account(filename='../project-100cr-7db0f1dfb28b.json')
+spreadsheet = gsheets.open('DeCoders Stock Trading Report')
+worksheet = spreadsheet.worksheet('quant-volume-shockers-trends')
+worksheet.clear()
+
+new_headers = merged_df.columns.tolist()
+new_values = merged_df.values.tolist()
+worksheet.update('A1', [new_headers])
+worksheet.update('A2', new_values)
 
 output_filename = os.path.abspath("../reports/daily/streak-volume-deals-latest.csv")
 merged_df.to_csv(output_filename)

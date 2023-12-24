@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import os
+import gspread
 
 
 # Function to load the configuration from a JSON file
@@ -42,5 +43,17 @@ desired_order = ['Stock Name', 'investor', 'Action', 'bulk_deal_date', 'bulk_dea
                  'Avg Price', 'Quantity Held', 'holding_average_price', 'profit_loss', 'Holder Name', 'holdings_change']
 df = df[desired_order]
 df = df.sort_values(by=['bulk_deal_date', 'Stock Name'], ascending=[False, True])
-df.set_index(['Stock Name'], inplace=True)
+# df.set_index(['Stock Name'], inplace=True)
 df.to_csv(output_filename)
+
+gsheet = df.astype(str)
+
+gsheets = gspread.service_account(filename='../../project-100cr-7db0f1dfb28b.json')
+spreadsheet = gsheets.open('DeCoders Stock Trading Report')
+worksheet = spreadsheet.worksheet('investors-bulk-deals-daily')
+worksheet.clear()
+
+new_headers = gsheet.columns.tolist()
+new_values = gsheet.values.tolist()
+worksheet.update('A1', [new_headers])
+worksheet.update('A2', new_values)

@@ -4,6 +4,7 @@ import json
 import os
 from datetime import datetime
 from io import StringIO
+import gspread
 
 url = "https://mo.streak.tech/api/tech_analysis_multi/"
 
@@ -48,10 +49,26 @@ indicators = [
     'state', 'status', 'stoch_rsi_fast', 'stochastic_k', 'ult_osc', 'vwma', 'willR', 'win_amt', 'win_pct', 'win_signals'
 ]
 
+print("started")
+
 # Get today's date
-today_date = pd.Timestamp(datetime.today().strftime('%Y-%m-%d'))
-df['date'] = today_date
+df['date'] = pd.Timestamp(datetime.today().strftime('%Y-%m-%d'))
 
 result = df.query('rsi  < 30 or rsi  > 70')
 output_filename = os.path.abspath("../reports/daily/streak-technical-indicators-nifty100.csv")
 result.to_csv(output_filename)
+
+# df = df.reset_index(drop=True)
+df_reset = df.reset_index(drop=False)
+gsheet = df_reset.astype(str)
+gsheets = gspread.service_account(filename='../project-100cr-7db0f1dfb28b.json')
+spreadsheet = gsheets.open('DeCoders Stock Trading Report')
+worksheet = spreadsheet.worksheet('technical-indicators-nifty100')
+worksheet.clear()
+
+new_headers = gsheet.columns.tolist()
+new_values = gsheet.values.tolist()
+worksheet.update('A1', [new_headers])
+worksheet.update('A2', new_values)
+
+print("finished")
