@@ -27,7 +27,8 @@
       "mirae-emerging-bluechip-fund": "https://www.moneycontrol.com/india-investors-portfolio/mirae-asset-emerging-bluechip-fund",
       "kotak-mahindra-group": "https://www.moneycontrol.com/india-investors-portfolio/kotak-mahindra-group",
       "govt-singapore": "https://www.moneycontrol.com/india-investors-portfolio/government-of-singapore",
-      "franklin-t-mf": "https://www.moneycontrol.com/india-investors-portfolio/franklin-india-group"
+      "franklin-t-mf": "https://www.moneycontrol.com/india-investors-portfolio/franklin-india-group",
+      "smallcap-world-fund-inc": "https://www.moneycontrol.com/india-investors-portfolio/smallcap-world-fund-inc"
     }
   },
   "finology": {
@@ -56,11 +57,14 @@
       "goldman-gqg-2": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/762841?page=1&pageSize=100",
       "goldman-india": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/103536?page=1&pageSize=100",
       "goldman-india-eq": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/738000?page=1&pageSize=100",
+      "goldman-india-eq-2": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/736349?page=1&pageSize=100",
       "nomura-india": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/85715?page=1&pageSize=100",
       "franklin-t-mf": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/53074?page=1&pageSize=100",
       "norges-bank": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/53484?page=1&pageSize=100",
       "tata-aig": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/51495?page=1&pageSize=100",
-      "govt-singapore": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/52805?page=1&pageSize=100"
+      "govt-singapore": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/52805?page=1&pageSize=100",
+      "reliance-group": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/116488?page=1&pageSize=100",
+      "smallcap-world-fund-inc": "https://api.stockedge.com/Api/ClientDashboardApi/GetParentClientBulkDeals/63307?page=1&pageSize=100"
     }
   }
 }
