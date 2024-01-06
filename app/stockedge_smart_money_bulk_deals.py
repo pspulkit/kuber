@@ -24,7 +24,7 @@ def create_reports_dir(base_dir="../../reports/"):
 configs = load_config()
 investors_bulk_deals = configs["stockedge"]["big_investors"]
 
-output_filename = os.path.abspath("../../reports/daily/stockedge-bulk-deals-latest.csv")
+output_filename = os.path.abspath("../../reports/stockedge-bulk-deals-latest.csv")
 deals_df = pd.DataFrame()
 
 for k, v in investors_bulk_deals.items():
